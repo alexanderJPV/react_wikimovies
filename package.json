@@ -1,0 +1,46 @@
+{
+  "name": "wikimovie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-cli serve --mode development --open",
+    "production": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderJPV/react_wikimovies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderJPV/react_wikimovies/issues"
+  },
+  "homepage": "https://github.com/alexanderJPV/react_wikimovies#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "bootswatch": "^4.6.0",
+    "css-loader": "^5.0.1",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.19.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.22.0",
+    "html-webpack-plugin": "^5.0.0",
+    "i": "^0.3.6",
+    "npm": "^7.5.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
